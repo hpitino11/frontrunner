@@ -1,0 +1,8 @@
+{
+  "name": "front-runner-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "node --watch index.js", "start": "node index.js" },
+  "dependencies": { "cors": "^2.8.5", "dotenv": "^16.5.0", "express": "^5.1.0", "express-rate-limit": "^7.5.0", "resend": "^4.5.1" }
+}

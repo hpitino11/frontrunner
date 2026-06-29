@@ -1,0 +1,15 @@
+:root {
+  --black: #0b0b0b;
+  --charcoal: #161616;
+  --dark-gray: #242424;
+  --soft-gray: #f3f1ed;
+  --white: #fff;
+  --gold: #b28a3d;
+  --gold-light: #d4b36a;
+  --border: rgba(255, 255, 255, .12);
+  --muted: #b9b9b9;
+  --ink: #151515;
+  --max: 1220px;
+  --heading: Arial, "Segoe UI", sans-serif;
+  --body: Inter, "Segoe UI", Arial, sans-serif;
+}
