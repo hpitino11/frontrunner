@@ -470,7 +470,7 @@ p { color: var(--muted); }
   .process__number { left: 0; margin: 0; position: absolute; top: 0; }
   .process__steps p { max-width: none; }
   .area__card { padding: 30px 25px; }
-  .area__places { grid-template-columns: 1fr; }
+  .area__places { grid-template-columns: 1fr 1fr; }
   .florida-map { min-height: 290px; padding: 14px; }
   .florida-map svg { height: 258px; }
   .emergency-banner__inner { align-items: flex-start; gap: 20px; grid-template-columns: 1fr; padding-block: 34px; }
