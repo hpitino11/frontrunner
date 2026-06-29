@@ -500,11 +500,13 @@ p { color: var(--muted); }
   .why-choose-grid { grid-template-columns: 1fr; }
   .contact-form-card { padding: 22px 16px; }
   .contact-intro__map iframe { height: 220px; }
-  .core-services-list { grid-template-columns: 1fr; }
-  .core-service-item:nth-child(odd) { padding-right: 0; border-right: none; }
-  .core-service-item:nth-child(even) { padding-left: 0; }
-  .core-service-item:nth-last-child(-n+2) { border-bottom: none; }
-  .core-service-item:last-child { border-bottom: 1px solid var(--border); }
+  .core-services-list { grid-template-columns: 1fr 1fr; }
+  .core-service-item { gap: 12px; padding: 18px 0; }
+  .core-service-item:nth-child(odd) { padding-right: 14px; }
+  .core-service-item:nth-child(even) { padding-left: 14px; }
+  .core-service-item__num { font-size: 1.1rem; min-width: 28px; }
+  .core-service-item__title { font-size: 1rem; gap: 5px; margin-bottom: 7px; }
+  .core-service-item__body p { font-size: .75rem; }
   .why-choose-card { padding: 22px 18px; }
   .emergency-banner__copy span { font-size: .85rem; }
   .capability-grid article { min-height: 260px; }
