@@ -427,7 +427,8 @@ p { color: var(--muted); }
   .container { width: min(calc(100% - 32px), var(--max)); }
   .section { padding: 54px 0; }
   h2 { font-size: 2rem; overflow-wrap: anywhere; }
-  .site-header { background: rgba(12,12,12,.96); padding: 13px 0; }
+  .site-header { background: rgba(12,12,12,.96); padding: 8px 0; }
+  .brand__logo { height: 42px; }
   .call-button { display: none; }
   body.nav-open { overflow: hidden; }
   .menu-button { align-items: center; background: transparent; border: 0; display: flex; height: 44px; justify-content: center; padding: 0; width: 44px; }
@@ -442,7 +443,7 @@ p { color: var(--muted); }
   .nav__services-menu::before { display: none; }
   .nav__services-menu a { min-height: 45px; padding: 10px; }
   .nav__mobile-call { align-items: center; background: var(--gold); color: #111; display: flex; font-size: .75rem; font-weight: 900; gap: 9px; justify-content: center; margin-top: 17px; min-height: 48px; padding: 12px; text-transform: uppercase; }
-  .hero { min-height: 0; padding: 96px 0 40px; }
+  .hero { min-height: 0; padding: 76px 0 40px; }
   .hero__grid { grid-template-columns: 1fr; }
   .hero__copy h1 { font-size: clamp(2.5rem,11vw,3.4rem); line-height: 1.02; }
   .hero__actions { flex-direction: column; }
@@ -481,7 +482,7 @@ p { color: var(--muted); }
   .footer__grid { gap: 36px; grid-template-columns: 1fr 1fr; }
   .footer__grid > div:first-child { grid-column: 1/-1; }
   .footer__bottom { align-items: flex-start; flex-direction: column; gap: 5px; }
-  .page-hero { min-height: 0; padding: 90px 0 44px; }
+  .page-hero { min-height: 0; padding: 76px 0 44px; }
   .page-hero__grid { grid-template-columns: 1fr; }
   .page-hero h1 { font-size: clamp(2.2rem,10vw,3rem); overflow-wrap: normal; }
   .page-hero__visual img { height: 190px; }
@@ -492,8 +493,8 @@ p { color: var(--muted); }
   .about-response .button { width: 100%; }
   .capability-grid, .contact-detail-grid { grid-template-columns: 1fr; }
   .about-who__grid, .contact-intro__grid { gap: 40px; grid-template-columns: 1fr; }
-  .about-who { padding-top: 80px; }
-  .contact-intro { padding-top: 80px; }
+  .about-who { padding-top: 72px; }
+  .contact-intro { padding-top: 72px; }
   .about-who__visual img { height: auto; max-height: 280px; object-fit: cover; }
   .about-who__badge { padding: 14px 18px; }
   .about-who__badge-num { font-size: 2rem; }
