@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MessageCircle, Send, X } from 'lucide-react';
+import { MessageCircle, Send, Sparkles, X } from 'lucide-react';
 import { faqData } from '../data/faqData';
 
 const GREETING = "Hi! Ask me a question or pick one below. I can help with our services, coverage area, and availability.";
@@ -46,13 +46,18 @@ export default function FaqChat() {
       {open && (
         <div className="faq-chat__panel" role="dialog" aria-label="Frequently asked questions">
           <div className="faq-chat__header">
-            <span>Front Runner Assistant</span>
+            <span className="faq-chat__header-icon"><Sparkles size={16} /></span>
+            <div className="faq-chat__header-text">
+              <strong>Front Runner Assistant</strong>
+              <small>Online</small>
+            </div>
             <button type="button" onClick={() => setOpen(false)} aria-label="Close chat"><X size={18} /></button>
           </div>
           <div className="faq-chat__messages">
             {messages.map((message, index) => (
               <div key={index} className={`faq-chat__bubble faq-chat__bubble--${message.from}`}>{message.text}</div>
             ))}
+            <p className="faq-chat__chips-label">Quick questions</p>
             <div className="faq-chat__chips">
               {faqData.filter((faq) => faq.chip !== false).map((faq) => (
                 <button key={faq.question} type="button" onClick={() => ask(faq.question, faq.answer)}>{faq.question}</button>
@@ -67,7 +72,7 @@ export default function FaqChat() {
               placeholder="Type your question…"
               aria-label="Type your question"
             />
-            <button type="submit" aria-label="Send"><Send size={16} /></button>
+            <button type="submit" aria-label="Send" disabled={!input.trim()}><Send size={16} /></button>
           </form>
         </div>
       )}
@@ -78,6 +83,7 @@ export default function FaqChat() {
         aria-expanded={open}
         aria-label={open ? 'Close FAQ chat' : 'Open FAQ chat'}
       >
+        {!open && <span className="faq-chat__toggle-ping" aria-hidden="true" />}
         {open ? <X size={22} /> : <MessageCircle size={22} />}
       </button>
     </div>
