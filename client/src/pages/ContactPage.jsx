@@ -78,7 +78,7 @@ export default function ContactPage() {
                   <option value="" disabled>Select a Service *</option>
                   <option>Water Damage</option>
                   <option>Fire & Smoke Damage</option>
-                  <option>Mold Remediation</option>
+                  <option>Mold Prevention</option>
                   <option>Storm Damage</option>
                   <option>Emergency Restoration</option>
                   <option>Dry Ice Blasting</option>

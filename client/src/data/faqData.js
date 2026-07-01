@@ -9,36 +9,36 @@ export const faqData = [
   },
   {
     question: 'What services do you offer?',
-    answer: 'Water damage restoration, fire & smoke damage, mold remediation, storm damage restoration, emergency restoration, and dry ice blasting.',
+    answer: 'Water damage restoration, fire & smoke damage, mold prevention, storm damage restoration, emergency restoration, and dry ice blasting.',
   },
   {
-    question: 'Do you do mold remediation?',
-    answer: 'Yes, we provide mold remediation services. We also offer water damage restoration, fire & smoke damage cleanup, storm damage restoration, emergency response, and dry ice blasting.',
+    question: 'Do you do mold prevention?',
+    answer: 'Yes, we provide mold prevention services focused on moisture control and preventive cleaning. We are not a licensed mold remediation company, so for active mold contamination we can help connect you with a licensed specialist. We also offer water damage restoration, fire & smoke damage cleanup, storm damage restoration, emergency response, and dry ice blasting.',
     chip: false,
   },
   {
     question: 'Do you handle water damage?',
-    answer: 'Yes, we provide water damage restoration. We also offer fire & smoke damage cleanup, mold remediation, storm damage restoration, emergency response, and dry ice blasting.',
+    answer: 'Yes, we provide water damage restoration. We also offer fire & smoke damage cleanup, mold prevention, storm damage restoration, emergency response, and dry ice blasting.',
     chip: false,
   },
   {
     question: 'Do you handle fire or smoke damage?',
-    answer: 'Yes, we provide fire & smoke damage cleanup. We also offer water damage restoration, mold remediation, storm damage restoration, emergency response, and dry ice blasting.',
+    answer: 'Yes, we provide fire & smoke damage cleanup. We also offer water damage restoration, mold prevention, storm damage restoration, emergency response, and dry ice blasting.',
     chip: false,
   },
   {
     question: 'Do you handle storm damage?',
-    answer: 'Yes, we provide storm damage restoration. We also offer water damage restoration, fire & smoke damage cleanup, mold remediation, emergency response, and dry ice blasting.',
+    answer: 'Yes, we provide storm damage restoration. We also offer water damage restoration, fire & smoke damage cleanup, mold prevention, emergency response, and dry ice blasting.',
     chip: false,
   },
   {
     question: 'Do you offer dry ice blasting?',
-    answer: 'Yes, we offer dry ice blasting. We also provide water damage restoration, fire & smoke damage cleanup, mold remediation, and storm damage restoration.',
+    answer: 'Yes, we offer dry ice blasting. We also provide water damage restoration, fire & smoke damage cleanup, mold prevention, and storm damage restoration.',
     chip: false,
   },
   {
     question: 'Do you handle emergency restoration?',
-    answer: 'Yes, we provide 24/7 emergency restoration. We also offer water damage restoration, fire & smoke damage cleanup, mold remediation, storm damage restoration, and dry ice blasting.',
+    answer: 'Yes, we provide 24/7 emergency restoration. We also offer water damage restoration, fire & smoke damage cleanup, mold prevention, storm damage restoration, and dry ice blasting.',
     chip: false,
   },
   {

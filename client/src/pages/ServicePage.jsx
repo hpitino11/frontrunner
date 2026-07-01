@@ -2,6 +2,8 @@ import { ArrowRight, Check, Phone } from 'lucide-react';
 import PageHero from '../components/PageHero';
 import { getService, serviceData } from '../data/serviceData';
 
+const processImages = ['/images/restoration-team.png', '/images/about-1.png', '/images/about-2.png', '/images/about-3.png'];
+
 export default function ServicePage({ slug }) {
   const service = getService(slug) || serviceData[0];
   const { Icon } = service;
@@ -16,7 +18,7 @@ export default function ServicePage({ slug }) {
         </div>
       </section>
       <section className="section service-process">
-        <div className="container"><div className="section-heading"><div className="eyebrow"><span /> A clear response</div><h2>What the process looks like.</h2></div><div className="service-process__grid">{service.steps.map((step, index) => <article key={step}><span>0{index + 1}</span><h3>{step}</h3></article>)}</div></div>
+        <div className="container"><div className="section-heading"><div className="eyebrow"><span /> A clear response</div><h2>What the process looks like.</h2></div><div className="service-process__grid">{service.steps.map((step, index) => <article key={step}><img src={processImages[index % processImages.length]} alt="" /><div><span>0{index + 1}</span><h3>{step}</h3></div></article>)}</div></div>
       </section>
       <section className="service-callout"><div className="container"><div><span>Available statewide, 24/7</span><h2>Need {service.navTitle.toLowerCase()} help?</h2></div><a className="button button--gold" href="tel:+15612607494"><Phone /> Call (561) 260-7494</a></div></section>
     </>

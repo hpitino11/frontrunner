@@ -15,7 +15,7 @@ const whyChoose = [
   {
     Icon: Snowflake,
     title: 'Advanced Cleaning Technology',
-    copy: 'We use dry ice blasting to remove mold residue, contaminants, and smoke damage from structural surfaces. It is non-abrasive and chemical-free, so it cleans thoroughly without harming what is underneath.',
+    copy: 'We use dry ice blasting to clean mold residue, contaminants, and smoke damage from structural surfaces. It is non-abrasive and chemical-free, so it cleans thoroughly without harming what is underneath.',
   },
 ];
 
@@ -35,7 +35,7 @@ export default function AboutPage() {
             <div className="eyebrow"><span />Who We Are</div>
             <h1>Water Damage Mitigation &amp; Restoration Experts</h1>
             <p>Front Runner Restoration is a water damage mitigation and restoration company serving residential and commercial properties throughout Florida. Whether it is a burst pipe, appliance failure, or flooding, our team responds fast to stop further damage, dry out your property, and get your life back to normal.</p>
-            <p>We specialize in water damage removal and demolition, structural drying, Xactimate estimates for insurance claims, and dry ice blasting for mold and contaminant removal. Our certified team uses professional-grade equipment and industry-standard processes to restore your property safely and efficiently.</p>
+            <p>We specialize in water damage removal and demolition, structural drying, Xactimate estimates for insurance claims, and dry ice blasting for residue and contaminant cleaning. Our trained team uses professional-grade equipment and industry-standard processes to restore your property safely and efficiently.</p>
             <a className="button button--gold about-who__cta" href="/contact">Get Help Now <ArrowRight /></a>
             <p className="about-who__phone">We are available 24/7. Call us at <a href="tel:+15612607494">(561) 260-7494</a></p>
           </div>

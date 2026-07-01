@@ -1,6 +1,6 @@
 import { Check, ShieldCheck } from 'lucide-react';
 
-const features = ['Fast emergency response', 'Clear communication', 'Clean, professional crews', 'Water, fire, mold & storm expertise', 'Statewide Florida coverage', 'Help when it feels overwhelming'];
+const features = ['Fast emergency response', 'Clear communication', 'Clean, professional crews', 'Water, fire & storm expertise, plus mold prevention', 'Statewide Florida coverage', 'Help when it feels overwhelming'];
 
 export default function WhyChoose() {
   return (

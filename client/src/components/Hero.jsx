@@ -7,8 +7,8 @@ export default function Hero() {
       <div className="hero__grid container">
         <div className="hero__copy">
           <div className="eyebrow"><span /> Statewide Florida response</div>
-          <h1><span>Fast response.</span><br />Expert results.</h1>
-          <p className="hero__lead">Water, fire, mold, and storm damage restoration when your property needs help fast.</p>
+          <h1><span>Out Front</span><br />Every Time.</h1>
+          <p className="hero__lead">Water, fire, and storm damage restoration, plus mold prevention services, when your property needs help fast.</p>
           <div className="hero__actions">
             <a className="button button--gold" href="/contact">Request emergency help <ArrowRight size={18} /></a>
             <a className="button button--outline" href="tel:+15612607494"><Phone size={18} /> (561) 260-7494</a>
