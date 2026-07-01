@@ -13,6 +13,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ServicePage from './pages/ServicePage';
 import BeforeAfterPage from './pages/BeforeAfterPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 export default function App() {
   const path = window.location.pathname.replace(/\/$/, '') || '/';
@@ -25,6 +26,8 @@ export default function App() {
       ? 'About | Front Runner Restoration'
       : path === '/contact'
         ? 'Contact | Front Runner Restoration'
+      : path === '/privacy-policy'
+        ? 'Privacy Policy | Front Runner Restoration'
         : 'Front Runner Restoration | Florida';
   }, [path]);
   useEffect(() => {
@@ -47,7 +50,7 @@ export default function App() {
     return () => observer.disconnect();
   }, [path]);
 
-  const page = path.startsWith('/services/') ? <ServicePage slug={path.split('/').pop()} /> : path === '/before-after' ? <BeforeAfterPage /> : path === '/about' ? <AboutPage /> : path === '/contact' ? <ContactPage /> : (
+  const page = path.startsWith('/services/') ? <ServicePage slug={path.split('/').pop()} /> : path === '/before-after' ? <BeforeAfterPage /> : path === '/about' ? <AboutPage /> : path === '/contact' ? <ContactPage /> : path === '/privacy-policy' ? <PrivacyPolicyPage /> : (
     <>
       <Hero />
       <TrustBar />
