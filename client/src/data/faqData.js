@@ -51,7 +51,7 @@ export const faqData = [
   },
   {
     question: 'What should I do right now if I have water or fire damage?',
-    answer: 'Call (561) 260-7494 right away. If it’s safe to do so, avoid the affected area until we can assess it — don’t wait, since damage can spread quickly.',
+    answer: 'Call (561) 260-7494 right away. If it’s safe to do so, avoid the affected area until we can assess it, since damage can spread quickly.',
   },
   {
     question: 'How do I get a quote?',

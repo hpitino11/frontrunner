@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { MessageCircle, Send, X } from 'lucide-react';
 import { faqData } from '../data/faqData';
 
-const GREETING = "Hi! Ask me a question or pick one below — I can help with our services, coverage area, and availability.";
+const GREETING = "Hi! Ask me a question or pick one below. I can help with our services, coverage area, and availability.";
 const FALLBACK = "I don't have an answer for that yet. Please call us at (561) 260-7494 and we'll help directly.";
 const STOPWORDS = new Set(['a', 'an', 'the', 'is', 'are', 'do', 'does', 'you', 'your', 'i', 'we', 'to', 'for', 'of', 'in', 'on', 'and', 'or', 'what', 'how', 'can', 'my']);
 
