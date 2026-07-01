@@ -428,7 +428,7 @@ p { color: var(--muted); }
 @media (max-width: 760px) {
   .container { width: min(calc(100% - 32px), var(--max)); }
   .section { padding: 54px 0; }
-  h2 { font-size: 2rem; overflow-wrap: anywhere; }
+  h2 { font-size: clamp(1.7rem, 8.5vw, 2.1rem); overflow-wrap: normal; }
   .site-header { background: rgba(12,12,12,.96); padding: 8px 0; }
   .brand__logo { height: 42px; }
   .call-button { display: none; }
