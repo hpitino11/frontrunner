@@ -84,7 +84,7 @@ export default function FaqChat() {
         aria-label={open ? 'Close FAQ chat' : 'Open FAQ chat'}
       >
         {!open && <span className="faq-chat__toggle-ping" aria-hidden="true" />}
-        {open ? <X size={22} /> : <MessageCircle size={22} />}
+        <span className="faq-chat__toggle-icon">{open ? <X size={22} /> : <MessageCircle size={22} />}</span>
       </button>
     </div>
   );

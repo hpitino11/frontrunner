@@ -574,7 +574,8 @@ p { color: var(--muted); }
 .faq-chat { bottom: 20px; position: fixed; right: 20px; z-index: 60; }
 .faq-chat__toggle { align-items: center; background: var(--gold); border: 0; border-radius: 50%; box-shadow: 0 12px 28px rgba(0,0,0,.4); color: #0a0a0a; cursor: pointer; display: flex; height: 58px; justify-content: center; margin-left: auto; position: relative; transition: background .2s ease, transform .2s ease, box-shadow .2s ease; width: 58px; }
 .faq-chat__toggle:hover { background: var(--gold-light); box-shadow: 0 14px 32px rgba(178,138,61,.4); transform: translateY(-2px) scale(1.04); }
-.faq-chat__toggle-ping { animation: faqPing 2.4s ease-out infinite; background: var(--gold); border-radius: 50%; inset: 0; position: absolute; }
+.faq-chat__toggle-ping { animation: faqPing 2.4s ease-out infinite; background: var(--gold); border-radius: 50%; inset: 0; pointer-events: none; position: absolute; z-index: 0; }
+.faq-chat__toggle-icon { align-items: center; display: flex; position: relative; z-index: 1; }
 .faq-chat__panel { animation: faqPanelIn .28s cubic-bezier(.22,1,.36,1); background: #fff; border-radius: 14px; border: 1px solid #e6e6e6; box-shadow: 0 24px 60px rgba(0,0,0,.35); display: flex; flex-direction: column; height: min(70vh, 520px); margin-bottom: 16px; overflow: hidden; width: min(90vw, 350px); }
 .faq-chat__header { align-items: center; background: linear-gradient(135deg, #d4b36a, #b28a3d); color: #0a0a0a; display: flex; gap: 11px; padding: 16px 16px; }
 .faq-chat__header-icon { align-items: center; background: rgba(10,10,10,.14); border-radius: 50%; display: flex; flex: none; height: 34px; justify-content: center; width: 34px; }
