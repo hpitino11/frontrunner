@@ -56,9 +56,9 @@ export default function Header() {
             </div>
           </div>
           {links.map(([label, href]) => <a key={href} href={href} onClick={closeNavigation}>{label}</a>)}
-          <a className="nav__mobile-call" href="tel:+15612607494"><Phone size={17} /> Call (561) 260-7494</a>
+          <a className="nav__mobile-call" href="tel:+18883796882"><Phone size={17} /> Call 1-888-DRYOUT-2</a>
         </nav>
-        <a className="call-button" href="tel:+15612607494"><Phone size={17} /> Call <span>(561) 260-7494</span></a>
+        <a className="call-button" href="tel:+18883796882"><Phone size={17} /> Call <span>1-888-DRYOUT-2</span></a>
         <button className="menu-button" type="button" onClick={() => setOpen(!open)} aria-label="Toggle navigation" aria-controls="mobile-navigation" aria-expanded={open}>
           {open ? <X /> : <Menu />}
         </button>

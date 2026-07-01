@@ -1,7 +1,7 @@
 export const faqData = [
   {
     question: 'Are you available 24/7?',
-    answer: 'Yes. We take emergency calls 24 hours a day, every day. Call (561) 260-7494 any time.',
+    answer: 'Yes. We take emergency calls 24 hours a day, every day. Call 1-888-DRYOUT-2 any time.',
   },
   {
     question: 'What areas do you serve?',
@@ -51,7 +51,7 @@ export const faqData = [
   },
   {
     question: 'What should I do right now if I have water or fire damage?',
-    answer: 'Call (561) 260-7494 right away. If it’s safe to do so, avoid the affected area until we can assess it, since damage can spread quickly.',
+    answer: 'Call 1-888-DRYOUT-2 right away. If it’s safe to do so, avoid the affected area until we can assess it, since damage can spread quickly.',
   },
   {
     question: 'How do I get a quote?',

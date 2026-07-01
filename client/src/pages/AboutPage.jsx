@@ -37,7 +37,7 @@ export default function AboutPage() {
             <p>Front Runner Restoration is a water damage mitigation and restoration company serving residential and commercial properties throughout Florida. Whether it is a burst pipe, appliance failure, or flooding, our team responds fast to stop further damage, dry out your property, and get your life back to normal.</p>
             <p>We specialize in water damage removal and demolition, structural drying, Xactimate estimates for insurance claims, and dry ice blasting for residue and contaminant cleaning. Our trained team uses professional-grade equipment and industry-standard processes to restore your property safely and efficiently.</p>
             <a className="button button--gold about-who__cta" href="/contact">Get Help Now <ArrowRight /></a>
-            <p className="about-who__phone">We are available 24/7. Call us at <a href="tel:+15612607494">(561) 260-7494</a></p>
+            <p className="about-who__phone">We are available 24/7. Call us at <a href="tel:+18883796882">1-888-DRYOUT-2</a></p>
           </div>
         </div>
       </section>

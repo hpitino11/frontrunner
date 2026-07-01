@@ -6,7 +6,7 @@ export default function EmergencyBanner() {
       <div className="container emergency-banner__inner">
         <div className="emergency-banner__mark"><Clock3 /><strong>24/7 Help</strong></div>
         <div className="emergency-banner__copy"><span>Emergency response across Florida</span></div>
-        <a href="tel:+15612607494"><Phone /> Call (561) 260-7494 <ArrowRight /></a>
+        <a href="tel:+18883796882"><Phone /> Call 1-888-DRYOUT-2 <ArrowRight /></a>
       </div>
     </section>
   );

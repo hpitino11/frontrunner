@@ -35,9 +35,9 @@ export default function ContactPage() {
                   <span className="contact-info-icon"><MapPin /></span>
                   <div><strong>Address</strong><span>3561 SW Pumpkin St, Port Saint Lucie, Florida</span></div>
                 </div>
-                <a href="tel:+15612607494" className="contact-info-item contact-info-item--link">
+                <a href="tel:+18883796882" className="contact-info-item contact-info-item--link">
                   <span className="contact-info-icon"><Phone /></span>
-                  <div><strong>Phone</strong><span>+1 (561) 260-7494</span></div>
+                  <div><strong>Phone</strong><span>1-888-DRYOUT-2</span></div>
                 </a>
                 <div className="contact-info-item">
                   <span className="contact-info-icon"><Mail /></span>

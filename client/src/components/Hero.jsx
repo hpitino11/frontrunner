@@ -11,7 +11,7 @@ export default function Hero() {
           <p className="hero__lead">Water, fire, and storm damage restoration, plus mold prevention services, when your property needs help fast.</p>
           <div className="hero__actions">
             <a className="button button--gold" href="/contact">Request emergency help <ArrowRight size={18} /></a>
-            <a className="button button--outline" href="tel:+15612607494"><Phone size={18} /> (561) 260-7494</a>
+            <a className="button button--outline" href="tel:+18883796882"><Phone size={18} /> 1-888-DRYOUT-2</a>
           </div>
           <div className="hero__trust">
             <ShieldCheck size={19} />

@@ -20,7 +20,7 @@ export default function ServicePage({ slug }) {
       <section className="section service-process">
         <div className="container"><div className="section-heading"><div className="eyebrow"><span /> A clear response</div><h2>What the process looks like.</h2></div><div className="service-process__grid">{service.steps.map((step, index) => <article key={step}><img src={processImages[index % processImages.length]} alt="" /><div><span>0{index + 1}</span><h3>{step}</h3></div></article>)}</div></div>
       </section>
-      <section className="service-callout"><div className="container"><div><span>Available statewide, 24/7</span><h2>Need {service.navTitle.toLowerCase()} help?</h2></div><a className="button button--gold" href="tel:+15612607494"><Phone /> Call (561) 260-7494</a></div></section>
+      <section className="service-callout"><div className="container"><div><span>Available statewide, 24/7</span><h2>Need {service.navTitle.toLowerCase()} help?</h2></div><a className="button button--gold" href="tel:+18883796882"><Phone /> Call 1-888-DRYOUT-2</a></div></section>
     </>
   );
 }

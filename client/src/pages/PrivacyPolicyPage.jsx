@@ -67,7 +67,7 @@ export default function PrivacyPolicyPage() {
           <p>
             Front Runner Restoration<br />
             3561 SW Pumpkin St, Port Saint Lucie, Florida<br />
-            Phone: <a href="tel:+15612607494">(561) 260-7494</a><br />
+            Phone: <a href="tel:+18883796882">1-888-DRYOUT-2</a><br />
             Email: <a href="mailto:info@frontrunnerrestoration.com">info@frontrunnerrestoration.com</a>
           </p>
         </div>

@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="contact__copy">
           <div className="eyebrow"><span /> Request help</div><h2>Need restoration help?</h2>
           <p>Send a message or call now for fast support. Tell us what happened and we’ll help you understand the next step.</p>
-          <a className="contact__phone" href="tel:+15612607494"><span><Phone /></span><div><small>For urgent help, call</small><b>(561) 260-7494</b></div></a>
+          <a className="contact__phone" href="tel:+18883796882"><span><Phone /></span><div><small>For urgent help, call</small><b>1-888-DRYOUT-2</b></div></a>
           <div className="contact__availability"><Clock3 /> Available 24 hours for emergency calls</div>
         </div>
         <form className="contact-form" onSubmit={submit}>
