@@ -8,6 +8,7 @@ import ServiceArea from './components/ServiceArea';
 import Contact from './components/Contact';
 import EmergencyBanner from './components/EmergencyBanner';
 import Footer from './components/Footer';
+import FaqChat from './components/FaqChat';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ServicePage from './pages/ServicePage';
@@ -63,6 +64,7 @@ export default function App() {
       <Header />
       <main>{page}</main>
       <Footer />
+      <FaqChat />
     </>
   );
 }
