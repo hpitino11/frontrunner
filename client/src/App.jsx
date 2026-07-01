@@ -14,21 +14,30 @@ import ContactPage from './pages/ContactPage';
 import ServicePage from './pages/ServicePage';
 import BeforeAfterPage from './pages/BeforeAfterPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import { getMeta, SITE_URL } from './seo';
+
+function setMetaTag(selector, attribute, value, content) {
+  let tag = document.head.querySelector(selector);
+  if (!tag) {
+    tag = document.createElement(attribute === 'rel' ? 'link' : 'meta');
+    tag.setAttribute(attribute, value);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute(attribute === 'rel' ? 'href' : 'content', content);
+}
 
 export default function App() {
   const path = window.location.pathname.replace(/\/$/, '') || '/';
   useEffect(() => {
-    document.title = path.startsWith('/services/')
-      ? 'Restoration Services | Front Runner Restoration'
-      : path === '/before-after'
-        ? 'Before & After | Front Runner Restoration'
-      : path === '/about'
-      ? 'About | Front Runner Restoration'
-      : path === '/contact'
-        ? 'Contact | Front Runner Restoration'
-      : path === '/privacy-policy'
-        ? 'Privacy Policy | Front Runner Restoration'
-        : 'Front Runner Restoration | Florida';
+    const { title, description } = getMeta(path);
+    const canonicalUrl = `${SITE_URL}${path === '/' ? '' : path}`;
+    document.title = title;
+    setMetaTag('meta[name="description"]', 'name', 'description', description);
+    setMetaTag('link[rel="canonical"]', 'rel', 'canonical', canonicalUrl);
+    setMetaTag('meta[property="og:title"]', 'property', 'og:title', title);
+    setMetaTag('meta[property="og:description"]', 'property', 'og:description', description);
+    setMetaTag('meta[property="og:url"]', 'property', 'og:url', canonicalUrl);
+    setMetaTag('meta[property="og:type"]', 'property', 'og:type', 'website');
   }, [path]);
   useEffect(() => {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

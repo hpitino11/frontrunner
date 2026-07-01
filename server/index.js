@@ -19,7 +19,7 @@ app.use((_req, res, next) => {
   const csp = [
     "default-src 'self'", "base-uri 'self'", "form-action 'self'", "frame-ancestors 'none'",
     "object-src 'none'", "img-src 'self' data: https://maps.gstatic.com https://maps.googleapis.com", "font-src 'self'", "style-src 'self' 'unsafe-inline'",
-    "script-src 'self'", `connect-src ${connectSources}`,
+    "script-src 'self' 'sha256-1sMpyX5u5av//Yy3tRPJiUK5F6DNbN4OorA9BKmwGK0='", `connect-src ${connectSources}`,
     "frame-src https://maps.google.com https://www.google.com",
   ];
   if (process.env.NODE_ENV === 'production') csp.push('upgrade-insecure-requests');
